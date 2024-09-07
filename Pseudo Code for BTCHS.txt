@@ -1,0 +1,95 @@
+- 👋 Hi, I’m @JeyceeX0 From Davao City 
+
+A
+
+Begin
+Perform Process A
+If Decision B? is Yes Then
+    Perform Process C
+End If
+End
+
+
+B
+
+Begin
+Perform Step D
+If E? then
+    Perform Step H
+Else
+    Perform Step F
+    If G? then
+        Go back to Step D
+    Else 
+        Perform Step I
+End If
+     End If
+End  
+
+
+C
+
+Start
+if K then
+    if P then
+        if Q then
+            R
+        else
+            // No operation defined for 'No' after Q
+    else
+        // No operation defined for 'No' after P
+else 
+    M 
+    N 
+    if O then
+        // No operation defined for 'Yes' after O
+    else 
+        // Loop back to start or end
+End
+
+
+D 
+
+Begin
+
+Perform S
+If T then
+    Perform Y
+    If Z then
+        End with A
+    Else
+        Go back to Start
+Else 
+    Perform U 
+    Perform V 
+    If W then 
+        Go back to Start 
+    Else 
+        End with X 
+End
+
+
+
+E
+
+Begin
+    Process C
+    If D? then
+        Process E
+        If E? then
+            Process I
+        Else 
+            Go back to Process C
+        EndIf
+    Else 
+        If G? then 
+            Process H 
+            Go back after H to D?
+        Else 
+            Go back to Process C
+        EndIf
+    EndIf
+End
+
+
+
